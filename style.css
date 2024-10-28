@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.left{
+    width: 40%;
+    height: 100%;
+    background-color: white;
+}
+
+.nav{
+    height:10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+
+}
+
+.icon{
+    margin-left: 1rem;
+    color: rgb(175, 172, 172);
+    font-size: 2rem;
+}
+
+.About{
+    margin-left: 8rem;
+    font-size: 1.2rem;
+    border-bottom: 1px solid rgb(175, 172, 172);
+}
+
+.work{
+    margin-left: 2rem;
+    font-size: 1.2rem ;
+    color: rgb(175, 172, 172);
+}
+.twitter{
+    margin-left:8rem ;
+    color: rgb(74, 157, 212);
+    font-size: 2rem;
+}
+.body{
+    margin: 10rem 7rem 10rem 7rem;
+
+}
+h1{
+    margin-bottom: 2rem;
+    font-size: 4rem;
+}
+p{
+    font-size: 1rem;
+    color:rgb(110, 108, 108) ;
+}
+button{
+    margin-top: 1.5rem;
+    height: 2rem;
+    width: 3rem;
+    background-color: #fff;
+    border-radius: 0.3rem;
+}
+
+
+.right{
+    width: 60%;
+    height: 100%;
+    
+}
+.top{
+    width: 100%;
+    height: 50%;
+    display: flex;
+
+}
+
+.top1{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1458791087439-278afc90b1d5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHBpbmVhcHBsZXxlbnwwfHwwfHx8MA%3D%3D);
+    background-size:cover;
+    background-position: center;
+
+}
+
+.top2{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1484980859177-5ac1249fda6f?q=80&w=1529&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size:cover;
+    background-position: center;
+}
+
+.bottom{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    background: #702c65;
+    background-image: url(https://images.unsplash.com/photo-1517260911058-0fcfd733702f?q=80&w=1543&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size:cover;
+    background-position: center;
+}
+ 
+.overlay{
+    background-color: white;
+    width: 15%;
+    height: 15%;
+    margin-top: 34.2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.arrow1 {
+    margin-right: 3rem;
+}
+
+@media(max-width: 1170px) {
+    .main{
+        flex-direction: column;
+    }
+    .main .left{
+        width: 100%;
+    }
+    .main .right{
+        width: 100%;
+    }
+}
+
